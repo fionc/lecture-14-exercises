@@ -6,6 +6,15 @@
 
 # We'll look into these more next week: http://shiny.rstudio.com/gallery/widget-gallery.html 
 
+library(shiny)
+
+shinyServer(
+
+UI(fluidPage(
+numericInput
+numericOutput
+
+
 x <- rnorm(100)
 y <- rnorm(100)
 plot(x,y, col='blue')
